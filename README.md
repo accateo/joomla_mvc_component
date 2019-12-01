@@ -10,4 +10,5 @@ In functions.php we find useful functions for querying the site database.
 
 In the "models" part we find a table of a database, which the component can use through the alias #__tablename_
 
-
+In the "js" folder we find a file that combines the functions used to display the modal and to send an email.
+The "sendMail" function is associated with the button within the modal.
