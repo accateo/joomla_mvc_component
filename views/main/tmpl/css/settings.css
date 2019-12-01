@@ -1,0 +1,12 @@
+#settingsModal {
+top:20%;
+
+outline: none;
+}
+
+.modal-backdrop.fade.in {
+    z-index: 0;
+}
+.modal.fade {
+    display: none;
+}
