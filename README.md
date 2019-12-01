@@ -12,3 +12,6 @@ In the "models" part we find a table of a database, which the component can use 
 
 In the "js" folder we find a file that combines the functions used to display the modal and to send an email.
 The "sendMail" function is associated with the button within the modal.
+
+# How to use it
+To use this template, just create a zip of the repository content and upload it in the "Extensions" section of the Joomla control panel
