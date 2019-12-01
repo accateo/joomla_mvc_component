@@ -1,0 +1,227 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.battery {
+  
+  display: inline-block;
+  margin-right: 12px;
+  position: relative;
+  width: 80px;
+  height: 50px;
+  background: white;
+  border: solid 3px black;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+
+
+.battery::before {
+  content: "";
+  display: block;
+  height: 100%;
+}
+
+.battery::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 24px;
+  background: inherit;
+  border: inherit;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+}
+
+.charge-10::before {
+  width: 10%;
+}
+
+.charge-10-light::before {
+  width: 10%;
+}
+
+.charge-20::before {
+  width: 20%;
+}
+
+.charge-20-light::before {
+  width: 20%;
+}
+
+.charge-30::before {
+  width: 30%;
+}
+
+.charge-30-light::before {
+ 
+  width: 30%;
+}
+
+.charge-40::before {
+  width: 40%;
+}
+
+.charge-40-light::before {
+  width: 40%;
+}
+
+.charge-50::before {
+  width: 50%;
+}
+
+.charge-50-light::before {
+  width: 50%;
+}
+
+.charge-60::before {
+  width: 60%;
+}
+
+.charge-60-light::before {
+  width: 60%;
+}
+
+.charge-70::before {
+  width: 70%;
+}
+
+.charge-70-light::before {
+  width: 70%;
+}
+
+.charge-80::before {
+  width: 80%;
+}
+
+.charge-80-light::before {
+  width: 80%;
+}
+
+.charge-90::before {
+  width: 90%;
+}
+
+.charge-90-light::before {
+  width: 90%;
+}
+
+.charge-100::before, .charge-full::before {
+  width: 100%;
+}
+
+.charge-100-light::before, .charge-full-light::before {
+  width: 100%;
+}
+
+.charge-100::before, .charge-full::before,
+.charge-90::before,
+.charge-80::before,
+.charge-70::before {
+   
+  background: green;
+}
+
+.charge-100-light::before, .charge-full-light::before,
+.charge-90-light::before,
+.charge-80-light::before,
+.charge-70-light::before {
+  content: "\f0e7";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  font-size: 27px;
+  text-decoration: inherit;
+  text-align: center;
+  color: #db0000;
+  background: green;
+
+}
+
+.charge-60::before,
+.charge-50::before,
+.charge-40::before,
+.charge-30::before {
+  
+  background: #dbb700;
+ 
+}
+
+.charge-60-light::before,
+.charge-50-light::before,
+.charge-40-light::before,
+.charge-30-light::before {
+  content: "\f0e7";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #000;
+  font-size: 27px;
+  text-decoration: inherit;
+  text-align: center;
+  color: #db0000;
+  background: #dbb700;
+
+}
+
+
+
+
+
+.charge-20::before,
+.charge-10::before {
+  background: #db0000;
+}
+
+.charge-20-light::before,
+.charge-10-light::before {
+  content: "\f0e7";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  font-size: 27px;
+  text-decoration: inherit;
+  text-align: center;
+  color: #db0000;
+  background: #db0000;
+}
+
+.charge-0, .charge-empty {
+  vertical-align: top;
+}
+
+.charge-0-light, .charge-empty-light {
+  content: "\f0e7";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  font-size: 27px;
+  text-decoration: inherit;
+  text-align: center;
+  color: #db0000;
+  background: green;
+  vertical-align: top;
+}
+
+.charge-0::before, .charge-empty::before {
+  content: "\f0e7";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  font-size: 27px;
+  text-decoration: inherit;
+  text-align: center;
+  color: #db0000;
+  background: green;
+}
